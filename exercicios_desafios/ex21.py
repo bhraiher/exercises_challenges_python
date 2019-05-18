@@ -1,5 +1,6 @@
 '''Ler um arquivo mp3 e reproduzi-lo
 import pygame
+print('hi word')
 pygame.init()
 pygame.mixer.music.load('musica.mp3')
 pygame.mixer.music.play()
