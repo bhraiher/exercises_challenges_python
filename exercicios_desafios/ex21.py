@@ -7,6 +7,7 @@ pygame.mixer.music.play()
 pygame.mixer.music.set_volume(10)
 x = input('Digite algo para encerrar')'''
 
+print ('Teste2')
 from playsound import playsound
 playsound('musica.mp3')
 #faltou parar o som.
