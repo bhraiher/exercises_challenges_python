@@ -1,0 +1,24 @@
+Dicas e regras python:
+
+- Anotar tudo que você acha importante.
+
+========/Módulo 2\========
+Aula 12 - Condições aninhadas
+Descrição: Se chama condição aninhada por quê há varias condições dentro de uma estrutura de decisão, formando um Aninhado de condição ou encadeamento. No caso do if, pode ter vários 'else if' dentro da mesma estrutura.
+	Estrutura:
+		if (condição):
+			...
+		elif (condição):
+			...
+		else:
+			...
+			
+	OBS: Pode usar 1 ou mais elife.
+	
+	parcela = vlrCasa / (qtdAnos * 12)
+juros = (parcela * 1.39 / 100) + parcela
+vlrTotJuros = juros * (qtdAnos * 12)
+parcSal = (vlrSalCli * 30) / 100
+print(juros)
+print(vlrTotJuros)
+	

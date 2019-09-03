@@ -33,7 +33,7 @@ try:
         print(' Centena: {}'.format(numero[-3]), end='')
         print(' Milhar: {}'.format(numero[-4]), end='.')
 except:
-    print('\nVocê não informou a opção entre 1 e 2 ou digitou um numero maior do que 4 digitos (Foi requerido somente de 0 à 9999)')
+    print('\nVocê não informou a opção entre 1 e 2 ou digitou um numero maior do que 4 digitos (Foi requerido somente de 0 à 9999')
 
 
 

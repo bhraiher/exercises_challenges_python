@@ -7,7 +7,7 @@ print('Da posição 1 à 9: ', frase[1:9])
 print(len(frase))
 print(frase.count('o'))
 print(frase.find('py'))
-print(frase.strip()) #Para tirar os espaços
+print('Aqui com strip', frase.strip()) #Para tirar os espaços
 print('python' in frase)
 dividido = frase.split()  #para quebrar (divisão de string)(cada palavra recebe uma lista nova, com indices novo.
 print(dividido[2][3])
